@@ -151,4 +151,32 @@ ul li {
     background: rgba(41, 206, 246, 0.05);
 }
 
+/* footer section */
+footer {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.footer-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.f-icons img {
+    margin: 0px 10px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 100px;
+}
+
 @media screen and (max-width:600px) {}
