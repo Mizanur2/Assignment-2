@@ -221,7 +221,6 @@ video {
     margin: 0px auto 0px 0px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
 }
 
 .discount-banner {
@@ -231,7 +230,6 @@ video {
     margin: 0px 0px 0px auto;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
 }
 
 .icons {
@@ -445,5 +443,16 @@ hr {
 
     .discount-card h1 {
         font-size: 20px;
+    }
+
+    .discount-section-one,
+    .discount-section-two {
+        margin: 15px;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    .discount-banner,
+    .discount-banner-two {
+        width: 90%;
     }
 }
