@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="none">
         <nav>
             <div class="logo-section">
                 <img src="Images/Group 40071 (2).png" alt="">
@@ -31,22 +31,23 @@
                     In et
                     odio enim ac quis sapien urna eu phasellus.</p>
                 <div class="banner-inputs">
-                    <label for="">
-                        <input type="text" placeholder="Where go">
-                    </label>
-                    <label for="">
-                        <input type="text" placeholder="When">
-                    </label>
-                    <label for="">
-                        <input type="text" placeholder="Select type">
-                    </label>
-                    <input class="btn" type="button" value="Find now">
+                    <input type="text" placeholder="Where go">
+                    <select name="" id="">
+                        <option value="">When</option>
+                    </select>
+                    <!-- <label for=""><input type="text" placeholder="Select type"> -->
+                    <select name="" id="">
+                        <option value="">Select Type</option>
+                    </select>
+                    <button class="btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Find Now</button>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <div class="popular-tour-section">
+        <div class="popular-tour-section none">
             <div class="popular-content">
                 <h1 class="heading">our popular tours</h1>
                 <p class="paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
@@ -67,7 +68,7 @@
             </div>
             <img src="Images/Rectangle 4.png" alt="">
         </div>
-        <div class="destination-section">
+        <div class="destination-section none">
             <div class="choose-content">
                 <h1 class="heading">choose your destination</h1>
                 <p class="paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
@@ -112,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="choosing-section">
+        <div class="choosing-section none">
             <div class="choose-content">
                 <h1 class="heading">why choose us</h1>
                 <p class="paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
@@ -143,7 +144,7 @@
             </div>
         </div>
 
-        <div class="popular-tour-section">
+        <div class="popular-tour-section none">
             <div class="popular-content">
                 <h1 class="heading">A Simple Perfect Place <br> To Get Lost</h1>
                 <p class="paragraph">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
@@ -159,7 +160,7 @@
             <video controls autoplay src="video/waterfall.mp4"></video>
         </div>
 
-        <div class="newsletter-section">
+        <div class="newsletter-section none">
             <div class="form">
                 <form action="">
                     <h1 class="heading">Newsletter</h1>
@@ -182,7 +183,7 @@
 
         </div>
     </main>
-    <footer>
+    <footer class="">
         <div class="footer-heading">
             <img src="Images/Group 40071 (2).png" alt="">
             <h1 class="logo-title">Tour <span>Guide</span></h1>
@@ -198,6 +199,8 @@
         <hr>
         <p class="paragraph">2024 &copy; All Right Reserved </p>
     </footer>
+
+    <script src="https://kit.fontawesome.com/7cf9557772.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
