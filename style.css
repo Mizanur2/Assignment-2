@@ -12,6 +12,10 @@ nav {
     align-items: center;
 }
 
+.hamburger {
+    display: none;
+}
+
 .logo-section {
     display: flex;
     align-items: center;
@@ -65,7 +69,8 @@ span {
 }
 
 .banner-inputs {
-    background-color: #424247a2;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
     padding: 40px;
 }
@@ -289,6 +294,48 @@ hr {
 
     .heading {
         font-size: 2rem;
+    }
+
+    .logo-section {
+        margin-left: 20px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    .banner-section {
+        height: 70vh;
+        margin: 20px;
+        width: 90vw;
+    }
+
+    .banner-inputs {
+        margin: 0px 20px;
+    }
+
+    .banner-inputs input[type="text"] {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    select {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
     }
 
     .paragraph {
