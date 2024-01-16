@@ -194,6 +194,57 @@ video {
     margin-left: 50px;
 }
 
+/* discount banner section */
+
+.discount-section-one {
+    background-image: url('Images/Group\ 39.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid blue; */
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.discount-section-two {
+    background-image: url('Images/Group\ 40.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid blue; */
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.discount-banner-two {
+    border: 1px solid white;
+    padding: 50px 20px;
+    width: 40%;
+    margin: 0px auto 0px 0px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.discount-banner {
+    border: 1px solid white;
+    padding: 50px 20px;
+    width: 40%;
+    margin: 0px 0px 0px auto;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.icons {
+    color: #FF5400;
+}
+
+.top-tags {
+    display: flex;
+    gap: 20px;
+}
+
+
+
 /* newsletter section */
 
 .newsletter-section {
