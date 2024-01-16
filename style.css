@@ -84,6 +84,7 @@ span {
     padding: 16px 40px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 /* popular tour section */
@@ -151,6 +152,69 @@ ul li {
     background: rgba(41, 206, 246, 0.05);
 }
 
+/* newsletter section */
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.form-hr {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.news-card img {
+    width: 60%;
+}
+
+.news-img {
+    position: relative
+}
+
+.form {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    margin-right: 20px;
+}
+
+.subscribe {
+    width: 100%;
+    font-weight: bold;
+}
+
+.form-inputs input {
+    padding: 16px;
+    display: block;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 93%;
+}
+
+.discount-card {
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 16px;
+    width: 40%;
+    text-align: center;
+    color: white;
+    margin-left: 55%;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.discount-card h1,
+.discount-card h3 {
+    margin: 10px 0px;
+}
+
 /* footer section */
 footer {
     text-align: center;
@@ -172,6 +236,7 @@ footer {
 
 .f-icons img {
     margin: 0px 10px;
+    cursor: pointer;
 }
 
 hr {
