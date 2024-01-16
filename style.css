@@ -114,6 +114,30 @@ ul li {
     width: 100%;
 }
 
+/* destination section */
+.destination-images {
+    margin-bottom: 100px;
+}
+
+.first-row,
+.second-row,
+.third-row {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.cntr-img-text {
+    position: relative;
+}
+
+.cntr-img-text h2 {
+    position: absolute;
+    bottom: 40%;
+    left: 37%;
+    color: white;
+}
+
 
 /* choose section */
 
@@ -150,6 +174,12 @@ ul li {
 
 .map-bg {
     background: rgba(41, 206, 246, 0.05);
+}
+
+video {
+    width: 50%;
+    border-radius: 18px;
+    margin-left: 50px;
 }
 
 /* newsletter section */
